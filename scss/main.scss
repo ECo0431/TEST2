@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.body{
+    background: linear-gradient(rgb(12, 27, 12), rgb(29, 70, 34));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-hundred-percent-h{
+    height: 100%;
+}
+
+.one-hundred-vh-h{
+    height: 100vh;
+}
+
+#box-txt{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.box-txt-all-binary, .box-txt-all-caracter{
+    color: rgb(101,211,110);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.box-txt-all-caracter{
+    display: flex;
+    max-width: 375px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.txt-binary{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(101,211,110);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(101,211,110);
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.txt-caracter{
+    width: 25px;
+    border: 1px solid rgb(101,211,110);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: -1px;
+}
+
+.nbr-caracter, .nbr-binary{
+    font-size: 0.5em;
+}
+
+.nbr-caracter{
+    margin-bottom: 5px;
+}
+
+.nbr-binary{
+    margin-right: 10px;
+}
+
+#input{
+    border: 1px solid rgb(101,211,110);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(101,211,110);
+    margin: 20px;
+}
+
+#button{
+    border: 1px solid rgb(101,211,110);
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(101,211,110);
+    margin: 20px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+#button:hover{
+    border: 1px solid rgb(101,211,110);
+    background-color: rgb(101,211,110);
+    color: rgb(12, 27, 12);
+    margin: 20px;
+    padding: 10px; 
+    cursor: pointer;
+}
+
+
+
+.btn-close{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgb(12, 27, 12);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: 1px solid rgb(101,211,110);
+}
+
+.close{
+    width: 20px;
+    fill: rgb(101,211,110);
+}
+
+.none{
+    display: none;
+}
